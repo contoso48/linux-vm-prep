@@ -5,8 +5,11 @@ Upload your script file (example linuxvmprep.sh) to an Azure blob storage accoun
 Configure the command to be "sh linuxvmprep.sh"
 
 From an ARM template point of view, this was configured:
+
  "fileUris": {"value": ["https://<storageaccountname>.blob.core.windows.net/scripts/linuxvmprep.sh?saskey"]},
+ 
  "commandToExecute": {"value": "sh linuxvmprep.sh"},
+
 
 After the VM is deployed (Ubuntu 18 LTS example), I got this result after connecting via SSH and running: cat /etc/environment
 
