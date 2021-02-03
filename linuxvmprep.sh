@@ -7,8 +7,8 @@ echo $(date) " - Linux VM Configure Proxy Script"
 # export HTTSPPROXYENTRY="$3"
 # export NOPROXYENTRY="$4"
 export PROXYSETTING="custom"
-export HTTPPROXYENTRY="https://10.6.156.132:8080"
-export HTTSPPROXYENTRY="http://10.6.156.132:8080"
+export HTTPPROXYENTRY="https://10.1.15.132:8080"
+export HTTSPPROXYENTRY="http://10.1.15.132:8080"
 export NOPROXYENTRY=""
 
 # Configure Proxy settings
